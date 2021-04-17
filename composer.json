@@ -1,0 +1,21 @@
+{
+    "name": "alexcarreira/curso-postgre-sql",
+    "description": "Material Utilizado para exemplificar a manipulação de BLOBS em PostgreSQL",
+    "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Alex Carreira",
+            "email": "alex@season.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
